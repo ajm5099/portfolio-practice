@@ -31,7 +31,7 @@ h1 {
 .line {
     background-color: darkgray;
     height: 2px;
-    width: 95%;
+    width: auto;
     padding: 2px;
     margin: auto;
 
@@ -53,10 +53,18 @@ p {
     float: left;
 }
 
-.footer {
-    background-color: rgb(65, 65, 65);
-    height: 25%;
-    border-top: color, green height 10px;
+.portfolio-box {
+    margin-left: 50px;
+    margin-top: 50px;
+    /* How can I get the width to match what the assignment is requesting? */
+    width: auto;
+    color: black;
+    background-color: white;
+    
+}
+
+.portfolio-image {
+    margin: 1vw;
 }
 
 #sticky-footer {
