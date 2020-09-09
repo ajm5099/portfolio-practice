@@ -1,25 +1,7 @@
 body {
-    background-image: url('images/19742.jpg');
+    /* background-image: url('images/19742.jpg'); */
+    background-color: salmon;
     background-size: cover;
-}
-
-hr {
-    height: 10px;
-    border-color: green;
-}
-
-.about-box {
-    margin-left: 50px;
-    margin-top: 50px;
-    /* How can I get the width to match what the assignment is requesting? */
-    width: 60vw;
-    color: black;
-    background-color: white;
-    
-}
-
-.about-margin {
-    padding: 25px;
 }
 
 h1 {
@@ -28,43 +10,12 @@ h1 {
     margin: 10px;
 }
 
-.line {
-    background-color: darkgray;
-    height: 2px;
-    width: auto;
-    padding: 2px;
-    margin: auto;
-
-}
-
 p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(17, 160, 112);
-    margin: 2vw;
-
-}
-
-.about-image {
-    height: 200px;
-    width: 200px;
-    /* background-image: url('images/van.jpg'); */
-    margin: 25px;
-    padding: 25px;
-    float: left;
-}
-
-.portfolio-box {
-    margin-left: 50px;
-    margin-top: 50px;
-    /* How can I get the width to match what the assignment is requesting? */
-    width: auto;
-    color: black;
-    background-color: white;
-    
-}
-
-.portfolio-image {
-    margin: 1vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 1vw;
 }
 
 #sticky-footer {
@@ -78,3 +29,50 @@ p {
     border-top-color: green;
     border-top-width: 10px;
   }
+
+.about-box {
+    margin-left: 5vw;
+    margin-top: 5vw;
+    width: 60vw;
+    color: black;
+    background-color: white;
+    
+}
+
+.about-image {
+    margin: 2vw;
+    float: left;
+}
+
+.line {
+    border-bottom: 2px solid darkgrey;
+}
+
+.portfolio-box {
+    margin: 2vw;
+    width: auto;
+    color: black;
+    background-color: white;
+}
+
+.portfolio-image {
+    margin: 1vw;
+}
+
+  .contact-box {
+    margin-left: 50px;
+    margin-top: 50px;
+    /* How can I get the width to match what the assignment is requesting? */
+    width: 40vw;
+    color: black;
+    background-color: white;
+    
+}
+
+.contact {
+    margin: 2vw;
+}
+
+.btn-info {
+    background-color: rgb(17, 160, 112);
+}
