@@ -1,6 +1,5 @@
 body {
     background-image: url('images/19742.jpg');
-    /* background-color: salmon; */
     background-size: cover;
 }
 
@@ -25,7 +24,6 @@ p {
     margin: auto;
     position: fixed;
     width: 100%;
-    /* How do I get a green border on top of my footer here? */
     border-top-color: green;
     border-top-width: 10px;
   }
