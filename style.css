@@ -51,16 +51,26 @@ p {
 .portfolio-box {
     margin-left: 2vw;
     margin-top: 2vw;
+    margin-bottom: 12vh;
     width: 60vw;
     color: black;
     background-color: white;
+}
+
+.project-container {
+    margin-top: 10vh;
+}
+
+h3 {
+    margin-top: 1vh;
+    margin-left: 2vw;
 }
 
 .portfolio-image {
     margin: 2vw;
 }
 
-  .contact-box {
+.contact-box {
     margin-left: 50px;
     margin-top: 50px;
     /* How can I get the width to match what the assignment is requesting? */
@@ -76,4 +86,14 @@ p {
 
 .btn-info {
     background-color: rgb(17, 160, 112);
+}
+
+.portfolio-link-btn {
+    margin: 0;
+    margin-top: 4vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
