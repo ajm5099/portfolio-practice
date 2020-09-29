@@ -9,6 +9,12 @@ h1 {
     margin-left: 2vw;
 }
 
+h3 {
+    color: rgb(17, 160, 112);
+    margin-top: 4vh;
+    margin-left: 2vw;
+}
+
 p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(17, 160, 112);
@@ -58,12 +64,7 @@ p {
 }
 
 .project-container {
-    margin-top: 10vh;
-}
-
-h3 {
-    margin-top: 1vh;
-    margin-left: 2vw;
+    margin-top: 4vh;
 }
 
 .portfolio-image {
@@ -96,4 +97,13 @@ h3 {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+.button-container {
+    padding: 4vh
+}
+
+#sticky-footer {
+    margin: 1vh;
+    padding: 1vh;
 }
