@@ -4,20 +4,20 @@ body {
 }
 
 h1 {
-    color: rgb(17, 160, 112);
+    color: #1b6c97;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 2vw;
 }
 
 h3 {
-    color: rgb(17, 160, 112);
+    color: #1b6c97;
     margin-top: 4vh;
     margin-left: 2vw;
 }
 
 p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(17, 160, 112);
+    color: #1b6c97;
     margin-left: 1vw;
     margin-right: 1vw;
     margin-top: 1vw;
@@ -86,7 +86,7 @@ p {
 }
 
 .btn-info {
-    background-color: rgb(17, 160, 112);
+    background-color: #1b6c97;
 }
 
 .portfolio-link-btn {
@@ -106,4 +106,8 @@ p {
 #sticky-footer {
     margin: 1vh;
     padding: 1vh;
+}
+
+.contact-buttons {
+    height: 17vh;
 }
