@@ -77,7 +77,7 @@ p {
     /* How can I get the width to match what the assignment is requesting? */
     width: 40vw;
     color: black;
-    background-color: wrgb(206, 206, 206);
+    background-color: rgb(206, 206, 206);
     
 }
 
