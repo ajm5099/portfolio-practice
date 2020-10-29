@@ -28,16 +28,17 @@ p {
     background-color: rgb(65, 65, 65);
     bottom: 0;
     margin: auto;
-    position: fixed;
+    position: absolute;
     width: 100%;
     border-top-color: green;
     border-top-width: 10px;
+    
   }
 
 .about-box {
     margin-left: 5vw;
     margin-top: 5vw;
-    width: 60vw;
+    width: 65vw;
     color: black;
     background-color: rgb(206, 206, 206);
     
@@ -74,6 +75,7 @@ p {
 .contact-box {
     margin-left: 50px;
     margin-top: 50px;
+    margin-bottom: 15vh;
     /* How can I get the width to match what the assignment is requesting? */
     width: 40vw;
     color: black;
@@ -100,7 +102,7 @@ p {
 }
 
 .button-container {
-    padding: 4vh
+    padding: 4vh;
 }
 
 #sticky-footer {
